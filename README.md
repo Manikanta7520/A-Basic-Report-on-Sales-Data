@@ -1,21 +1,13 @@
-# A-Basic-Report-on-Sales-Data
-* Developers Arena Data Science Internship
-* Author : Sai Manikanta
+# A-Basic-Report-on-SalesData
+Developers Arena - Data Science Internship  
+Author : Sudharshan Katakam
 
-----
+---
 
 ## Project Overview
 
-This project focuses on performing basic data analysis using Python and the pandas library.The goal is to work with a real dataset, perform simple calculations, and generate a clean report that highlights key business insights.
-To analyze a sales dataset and extract useful insights such as:
-
-* Total Sales Amount
-
-* Best-Selling Product (based on units sold)
-
-* Basic Summary Report
-
-* This task helps build beginner-level data analysis skills using a real dataset.
+This project is part of Week 3: Introduction to Data Analysis – Working with Real Data.
+The objective of this project is to understand how data can be analyzed using Python and the pandas library.In this project, a sales dataset stored in a CSV file is loaded, explored, cleaned, and analyzed to extract meaningful insights such as total sales, average sales, and the best-selling product.This project introduces basic data analysis concepts that are commonly used in real-world applications..
 
 ---
 
@@ -24,32 +16,28 @@ To analyze a sales dataset and extract useful insights such as:
 File: sample_sales_data.xlsx
 Contains the following columns:
 
-* Date – Order date
+* Product – Name of the product sold
 
-* Product – Item purchased
+* Price – Price of a single unit
 
-* Category – Product category
+* Customer_ID – Unique identifier for each customer
 
-* Region – Sales region
+* Region – Region where the sale occurred
 
-* Sales Amount – Total amount for the order
-
-* Units Sold – Number of units sold
-
-* Salesperson – Staff who handled the order
+* Total_Sales – Total sales amount for the transaction
 
 ---
 
 ## Key Learning Outcomes
 
-Loading Excel data using pandas.read_excel()
+* Loading Excel data using pandas.read_excel()
 
-Performing summation and grouping operations
+* Performing summation and grouping operations
 
-Identifying the best-selling product
+* Identifying the best-selling product
 
-Creating simple text-based reports
+* Creating simple text-based reports
 
-Strengthening fundamentals of pandas DataFrames
+* Strengthening fundamentals of pandas DataFrames
 
 ---
