@@ -1,0 +1,65 @@
+Test Cases – Sales Data Analysis (Week-3)
+
+Test Case 1: Dataset Loading
+
+Input: sales_data.csv present in project folder
+Expected Output: Dataset loads without error
+Result: Passed
+
+Test Case 2: Display First Few Rows
+
+Input: Valid dataset
+Expected Output: First 5 rows of the dataset displayed using head()
+Result: Passed
+
+Test Case 3: Dataset Information Check
+
+Input: Loaded dataset
+Expected Output: Correct number of rows, columns, and data types displayed using info()
+Result: Passed
+
+Test Case 4: Missing Values Handling
+
+Input: Dataset with missing numeric values
+Expected Output: Missing values replaced with 0 using fillna()
+Result: Passed
+
+Test Case 5: Duplicate Records Handling
+
+Input: Dataset containing duplicate rows
+Expected Output: Duplicate rows removed using drop_duplicates()
+Result: Passed
+
+Test Case 6: Total Sales Calculation
+
+Input: Column Total_Sales
+Expected Output: Correct total sales value calculated using sum()
+Result: Passed
+
+Test Case 7: Average Sales Calculation
+
+Input: Column Total_Sales
+Expected Output: Correct average sales value calculated using mean()
+Result: Passed
+
+Test Case 8: Highest and Lowest Sales
+
+Input: Column Total_Sales
+Expected Output:
+
+Highest sales value using max()
+
+Lowest sales value using min()
+Result: Passed
+
+Test Case 9: Best-Selling Product
+
+Input: Grouped by Product
+Expected Output: Product with highest total sales correctly identified
+Result: Passed
+
+Test Case 10: Report Generation
+
+Input: All calculated metrics
+Expected Output: Clean, formatted sales analysis report printed to console
+Result: Passed
